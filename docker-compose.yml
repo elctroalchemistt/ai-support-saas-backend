@@ -1,0 +1,38 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: ai_support_postgres
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: app
+      POSTGRES_DB: aisupport
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7
+    container_name: ai_support_redis
+    ports:
+      - "6379:6379"
+
+  api:
+    build:
+      context: ./apps/api
+    container_name: ai_support_api
+    env_file:
+      - ./apps/api/.env
+    environment:
+      - WATCHFILES_FORCE_POLLING=true
+    depends_on:
+      - postgres
+      - redis
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./apps/api:/app
+    command: python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+volumes:
+  pgdata:
