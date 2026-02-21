@@ -1,0 +1,1033 @@
+│       │   │   ├───src
+│       │   │   │   └───values
+│       │   │   │       └───expressions
+│       │   │   └───__tests__
+│       │   │       └───src
+│       │   ├───keyv
+│       │   │   └───src
+│       │   ├───language-subtag-registry
+│       │   │   └───data
+│       │   │       └───json
+│       │   ├───language-tags
+│       │   │   └───lib
+│       │   ├───levn
+│       │   │   └───lib
+│       │   ├───lightningcss
+│       │   │   └───node
+│       │   ├───lightningcss-win32-x64-msvc
+│       │   ├───locate-path
+│       │   ├───lodash.merge
+│       │   ├───loose-envify
+│       │   ├───lru-cache
+│       │   ├───magic-string
+│       │   │   └───dist
+│       │   ├───math-intrinsics
+│       │   │   ├───.github
+│       │   │   ├───constants
+│       │   │   └───test
+│       │   ├───merge2
+│       │   ├───micromatch
+│       │   ├───minimatch
+│       │   ├───minimist
+│       │   │   ├───.github
+│       │   │   ├───example
+│       │   │   └───test
+│       │   ├───ms
+│       │   ├───nanoid
+│       │   │   ├───async
+│       │   │   ├───bin
+│       │   │   ├───non-secure
+│       │   │   └───url-alphabet
+│       │   ├───napi-postinstall
+│       │   │   └───lib
+│       │   ├───natural-compare
+│       │   ├───next
+│       │   │   ├───compat
+│       │   │   ├───dist
+│       │   │   │   ├───api
+│       │   │   │   ├───bin
+│       │   │   │   ├───build
+│       │   │   │   │   ├───adapter
+│       │   │   │   │   ├───analysis
+│       │   │   │   │   ├───analyze
+│       │   │   │   │   ├───babel
+│       │   │   │   │   │   ├───loader
+│       │   │   │   │   │   └───plugins
+│       │   │   │   │   ├───jest
+│       │   │   │   │   │   └───__mocks__
+│       │   │   │   │   ├───manifests
+│       │   │   │   │   │   └───formatter
+│       │   │   │   │   ├───next-config-ts
+│       │   │   │   │   ├───output
+│       │   │   │   │   ├───polyfills
+│       │   │   │   │   │   ├───fetch
+│       │   │   │   │   │   └───object.assign
+│       │   │   │   │   ├───segment-config
+│       │   │   │   │   │   ├───app
+│       │   │   │   │   │   ├───middleware
+│       │   │   │   │   │   └───pages
+│       │   │   │   │   ├───static-paths
+│       │   │   │   │   │   └───app
+│       │   │   │   │   ├───swc
+│       │   │   │   │   ├───templates
+│       │   │   │   │   ├───turbopack-analyze
+│       │   │   │   │   ├───turbopack-build
+│       │   │   │   │   ├───turborepo-access-trace
+│       │   │   │   │   ├───webpack
+│       │   │   │   │   │   ├───alias
+│       │   │   │   │   │   ├───config
+│       │   │   │   │   │   │   └───blocks
+│       │   │   │   │   │   │       ├───css
+│       │   │   │   │   │   │       │   └───loaders
+│       │   │   │   │   │   │       └───images
+│       │   │   │   │   │   ├───loaders
+│       │   │   │   │   │   │   ├───css-loader
+│       │   │   │   │   │   │   │   └───src
+│       │   │   │   │   │   │   │       ├───plugins
+│       │   │   │   │   │   │   │       └───runtime
+│       │   │   │   │   │   │   ├───devtool
+│       │   │   │   │   │   │   ├───lightningcss-loader
+│       │   │   │   │   │   │   │   └───src
+│       │   │   │   │   │   │   ├───metadata
+│       │   │   │   │   │   │   ├───next-app-loader
+│       │   │   │   │   │   │   ├───next-edge-app-route-loader
+│       │   │   │   │   │   │   ├───next-edge-ssr-loader
+│       │   │   │   │   │   │   ├───next-flight-loader
+│       │   │   │   │   │   │   ├───next-font-loader
+│       │   │   │   │   │   │   ├───next-image-loader
+│       │   │   │   │   │   │   ├───next-route-loader
+│       │   │   │   │   │   │   ├───next-style-loader
+│       │   │   │   │   │   │   │   └───runtime
+│       │   │   │   │   │   │   ├───postcss-loader
+│       │   │   │   │   │   │   │   └───src
+│       │   │   │   │   │   │   └───resolve-url-loader
+│       │   │   │   │   │   │       └───lib
+│       │   │   │   │   │   └───plugins
+│       │   │   │   │   │       ├───minify-webpack-plugin
+│       │   │   │   │   │       │   └───src
+│       │   │   │   │   │       ├───next-types-plugin
+│       │   │   │   │   │       ├───telemetry-plugin
+│       │   │   │   │   │       └───wellknown-errors-plugin
+│       │   │   │   │   ├───webpack-build
+│       │   │   │   │   └───webpack-config-rules
+│       │   │   │   ├───bundle-analyzer
+│       │   │   │   │   ├───_next
+│       │   │   │   │   │   └───static
+│       │   │   │   │   │       ├───chunks
+│       │   │   │   │   │       └───DFZI-lC8mGFhvCg4S1kw3
+│       │   │   │   │   └───_not-found
+│       │   │   │   ├───cli
+│       │   │   │   │   └───internal
+│       │   │   │   ├───client
+│       │   │   │   │   ├───app-dir
+│       │   │   │   │   ├───compat
+│       │   │   │   │   ├───components
+│       │   │   │   │   │   ├───builtin
+│       │   │   │   │   │   ├───errors
+│       │   │   │   │   │   ├───http-access-fallback
+│       │   │   │   │   │   ├───router-reducer
+│       │   │   │   │   │   │   └───reducers
+│       │   │   │   │   │   ├───segment-cache
+│       │   │   │   │   │   └───styles
+│       │   │   │   │   ├───dev
+│       │   │   │   │   │   ├───error-overlay
+│       │   │   │   │   │   └───hot-reloader
+│       │   │   │   │   │       ├───app
+│       │   │   │   │   │       └───pages
+│       │   │   │   │   ├───legacy
+│       │   │   │   │   ├───lib
+│       │   │   │   │   ├───portal
+│       │   │   │   │   ├───react-client-callbacks
+│       │   │   │   │   ├───request
+│       │   │   │   │   └───tracing
+│       │   │   │   ├───compiled
+│       │   │   │   │   ├───@babel
+│       │   │   │   │   │   └───runtime
+│       │   │   │   │   │       ├───helpers
+│       │   │   │   │   │       │   └───esm
+│       │   │   │   │   │       └───regenerator
+│       │   │   │   │   ├───@edge-runtime
+│       │   │   │   │   │   ├───cookies
+│       │   │   │   │   │   ├───ponyfill
+│       │   │   │   │   │   └───primitives
+│       │   │   │   │   ├───@hapi
+│       │   │   │   │   │   └───accept
+│       │   │   │   │   ├───@modelcontextprotocol
+│       │   │   │   │   │   └───sdk
+│       │   │   │   │   │       └───server
+│       │   │   │   │   ├───@mswjs
+│       │   │   │   │   │   └───interceptors
+│       │   │   │   │   │       └───ClientRequest
+│       │   │   │   │   ├───@napi-rs
+│       │   │   │   │   │   └───triples
+│       │   │   │   │   ├───@next
+│       │   │   │   │   │   ├───font
+│       │   │   │   │   │   │   ├───dist
+│       │   │   │   │   │   │   │   ├───fontkit
+│       │   │   │   │   │   │   │   ├───google
+│       │   │   │   │   │   │   │   └───local
+│       │   │   │   │   │   │   ├───google
+│       │   │   │   │   │   │   └───local
+│       │   │   │   │   │   └───react-refresh-utils
+│       │   │   │   │   │       └───dist
+│       │   │   │   │   │           └───internal
+│       │   │   │   │   ├───@opentelemetry
+│       │   │   │   │   │   └───api
+│       │   │   │   │   ├───@vercel
+│       │   │   │   │   │   ├───nft
+│       │   │   │   │   │   ├───og
+│       │   │   │   │   │   │   ├───emoji
+│       │   │   │   │   │   │   ├───figma
+│       │   │   │   │   │   │   ├───language
+│       │   │   │   │   │   │   └───satori
+│       │   │   │   │   │   └───routing-utils
+│       │   │   │   │   ├───acorn
+│       │   │   │   │   ├───anser
+│       │   │   │   │   ├───assert
+│       │   │   │   │   ├───async-retry
+│       │   │   │   │   ├───async-sema
+│       │   │   │   │   ├───babel
+│       │   │   │   │   ├───babel-code-frame
+│       │   │   │   │   ├───babel-packages
+│       │   │   │   │   ├───browserify-zlib
+│       │   │   │   │   ├───browserslist
+│       │   │   │   │   ├───buffer
+│       │   │   │   │   ├───busboy
+│       │   │   │   │   ├───bytes
+│       │   │   │   │   ├───ci-info
+│       │   │   │   │   ├───cli-select
+│       │   │   │   │   ├───client-only
+│       │   │   │   │   ├───commander
+│       │   │   │   │   ├───comment-json
+│       │   │   │   │   ├───compression
+│       │   │   │   │   ├───conf
+│       │   │   │   │   ├───constants-browserify
+│       │   │   │   │   ├───content-disposition
+│       │   │   │   │   ├───content-type
+│       │   │   │   │   ├───cookie
+│       │   │   │   │   ├───cross-spawn
+│       │   │   │   │   ├───crypto-browserify
+│       │   │   │   │   ├───css.escape
+│       │   │   │   │   ├───cssnano-simple
+│       │   │   │   │   ├───data-uri-to-buffer
+│       │   │   │   │   ├───debug
+│       │   │   │   │   ├───devalue
+│       │   │   │   │   ├───domain-browser
+│       │   │   │   │   ├───edge-runtime
+│       │   │   │   │   ├───events
+│       │   │   │   │   ├───find-up
+│       │   │   │   │   ├───fresh
+│       │   │   │   │   ├───glob
+│       │   │   │   │   ├───gzip-size
+│       │   │   │   │   ├───http-proxy
+│       │   │   │   │   ├───http-proxy-agent
+│       │   │   │   │   ├───https-browserify
+│       │   │   │   │   ├───https-proxy-agent
+│       │   │   │   │   ├───icss-utils
+│       │   │   │   │   ├───ignore-loader
+│       │   │   │   │   ├───image-detector
+│       │   │   │   │   ├───image-size
+│       │   │   │   │   ├───ipaddr.js
+│       │   │   │   │   ├───is-animated
+│       │   │   │   │   ├───is-docker
+│       │   │   │   │   ├───is-wsl
+│       │   │   │   │   ├───jest-worker
+│       │   │   │   │   ├───json5
+│       │   │   │   │   ├───jsonwebtoken
+│       │   │   │   │   ├───loader-runner
+│       │   │   │   │   ├───loader-utils2
+│       │   │   │   │   ├───loader-utils3
+│       │   │   │   │   ├───lodash.curry
+│       │   │   │   │   ├───lru-cache
+│       │   │   │   │   ├───mini-css-extract-plugin
+│       │   │   │   │   │   └───hmr
+│       │   │   │   │   ├───nanoid
+│       │   │   │   │   ├───native-url
+│       │   │   │   │   ├───neo-async
+│       │   │   │   │   ├───next-devtools
+│       │   │   │   │   ├───next-server
+│       │   │   │   │   ├───node-html-parser
+│       │   │   │   │   ├───ora
+│       │   │   │   │   ├───os-browserify
+│       │   │   │   │   ├───p-limit
+│       │   │   │   │   ├───p-queue
+│       │   │   │   │   ├───path-browserify
+│       │   │   │   │   ├───path-to-regexp
+│       │   │   │   │   ├───picomatch
+│       │   │   │   │   ├───postcss-flexbugs-fixes
+│       │   │   │   │   ├───postcss-modules-extract-imports
+│       │   │   │   │   ├───postcss-modules-local-by-default
+│       │   │   │   │   ├───postcss-modules-scope
+│       │   │   │   │   ├───postcss-modules-values
+│       │   │   │   │   ├───postcss-plugin-stub-for-cssnano-simple
+│       │   │   │   │   ├───postcss-preset-env
+│       │   │   │   │   ├───postcss-safe-parser
+│       │   │   │   │   ├───postcss-scss
+│       │   │   │   │   ├───postcss-value-parser
+│       │   │   │   │   ├───process
+│       │   │   │   │   ├───punycode
+│       │   │   │   │   ├───querystring-es3
+│       │   │   │   │   ├───raw-body
+│       │   │   │   │   ├───react
+│       │   │   │   │   │   └───cjs
+│       │   │   │   │   ├───react-dom
+│       │   │   │   │   │   └───cjs
+│       │   │   │   │   ├───react-dom-experimental
+│       │   │   │   │   │   └───cjs
+│       │   │   │   │   ├───react-experimental
+│       │   │   │   │   │   └───cjs
+│       │   │   │   │   ├───react-is
+│       │   │   │   │   │   └───cjs
+│       │   │   │   │   ├───react-refresh
+│       │   │   │   │   │   └───cjs
+│       │   │   │   │   ├───react-server-dom-turbopack
+│       │   │   │   │   │   └───cjs
+│       │   │   │   │   ├───react-server-dom-turbopack-experimental
+│       │   │   │   │   │   └───cjs
+│       │   │   │   │   ├───react-server-dom-webpack
+│       │   │   │   │   │   └───cjs
+│       │   │   │   │   ├───react-server-dom-webpack-experimental
+│       │   │   │   │   │   └───cjs
+│       │   │   │   │   ├───regenerator-runtime
+│       │   │   │   │   ├───safe-stable-stringify
+│       │   │   │   │   ├───sass-loader
+│       │   │   │   │   ├───scheduler
+│       │   │   │   │   │   └───cjs
+│       │   │   │   │   ├───scheduler-experimental
+│       │   │   │   │   │   └───cjs
+│       │   │   │   │   ├───schema-utils2
+│       │   │   │   │   ├───schema-utils3
+│       │   │   │   │   ├───semver
+│       │   │   │   │   ├───send
+│       │   │   │   │   ├───serve-handler
+│       │   │   │   │   ├───server-only
+│       │   │   │   │   ├───setimmediate
+│       │   │   │   │   ├───shell-quote
+│       │   │   │   │   ├───source-map
+│       │   │   │   │   ├───source-map08
+│       │   │   │   │   ├───stacktrace-parser
+│       │   │   │   │   ├───stream-browserify
+│       │   │   │   │   ├───stream-http
+│       │   │   │   │   ├───string-hash
+│       │   │   │   │   ├───string_decoder
+│       │   │   │   │   ├───strip-ansi
+│       │   │   │   │   ├───superstruct
+│       │   │   │   │   ├───tar
+│       │   │   │   │   ├───terser
+│       │   │   │   │   ├───text-table
+│       │   │   │   │   ├───timers-browserify
+│       │   │   │   │   ├───tty-browserify
+│       │   │   │   │   ├───ua-parser-js
+│       │   │   │   │   ├───unistore
+│       │   │   │   │   ├───util
+│       │   │   │   │   ├───vm-browserify
+│       │   │   │   │   ├───watchpack
+│       │   │   │   │   ├───web-vitals
+│       │   │   │   │   ├───web-vitals-attribution
+│       │   │   │   │   ├───webpack
+│       │   │   │   │   ├───webpack-sources1
+│       │   │   │   │   ├───webpack-sources3
+│       │   │   │   │   ├───ws
+│       │   │   │   │   ├───zod
+│       │   │   │   │   └───zod-validation-error
+│       │   │   │   ├───diagnostics
+│       │   │   │   ├───esm
+│       │   │   │   │   ├───api
+│       │   │   │   │   ├───build
+│       │   │   │   │   │   ├───adapter
+│       │   │   │   │   │   ├───analysis
+│       │   │   │   │   │   ├───analyze
+│       │   │   │   │   │   ├───babel
+│       │   │   │   │   │   │   ├───loader
+│       │   │   │   │   │   │   └───plugins
+│       │   │   │   │   │   ├───manifests
+│       │   │   │   │   │   │   └───formatter
+│       │   │   │   │   │   ├───next-config-ts
+│       │   │   │   │   │   ├───output
+│       │   │   │   │   │   ├───polyfills
+│       │   │   │   │   │   │   ├───fetch
+│       │   │   │   │   │   │   └───object.assign
+│       │   │   │   │   │   ├───segment-config
+│       │   │   │   │   │   │   ├───app
+│       │   │   │   │   │   │   ├───middleware
+│       │   │   │   │   │   │   └───pages
+│       │   │   │   │   │   ├───static-paths
+│       │   │   │   │   │   │   └───app
+│       │   │   │   │   │   ├───swc
+│       │   │   │   │   │   ├───templates
+│       │   │   │   │   │   ├───turbopack-analyze
+│       │   │   │   │   │   ├───turbopack-build
+│       │   │   │   │   │   ├───turborepo-access-trace
+│       │   │   │   │   │   ├───webpack
+│       │   │   │   │   │   │   ├───alias
+│       │   │   │   │   │   │   ├───config
+│       │   │   │   │   │   │   │   └───blocks
+│       │   │   │   │   │   │   │       ├───css
+│       │   │   │   │   │   │   │       │   └───loaders
+│       │   │   │   │   │   │   │       └───images
+│       │   │   │   │   │   │   ├───loaders
+│       │   │   │   │   │   │   │   ├───css-loader
+│       │   │   │   │   │   │   │   │   └───src
+│       │   │   │   │   │   │   │   │       ├───plugins
+│       │   │   │   │   │   │   │   │       └───runtime
+│       │   │   │   │   │   │   │   ├───devtool
+│       │   │   │   │   │   │   │   ├───lightningcss-loader
+│       │   │   │   │   │   │   │   │   └───src
+│       │   │   │   │   │   │   │   ├───metadata
+│       │   │   │   │   │   │   │   ├───next-app-loader
+│       │   │   │   │   │   │   │   ├───next-edge-app-route-loader
+│       │   │   │   │   │   │   │   ├───next-edge-ssr-loader
+│       │   │   │   │   │   │   │   ├───next-flight-loader
+│       │   │   │   │   │   │   │   ├───next-font-loader
+│       │   │   │   │   │   │   │   ├───next-image-loader
+│       │   │   │   │   │   │   │   ├───next-route-loader
+│       │   │   │   │   │   │   │   ├───next-style-loader
+│       │   │   │   │   │   │   │   │   └───runtime
+│       │   │   │   │   │   │   │   ├───postcss-loader
+│       │   │   │   │   │   │   │   │   └───src
+│       │   │   │   │   │   │   │   └───resolve-url-loader
+│       │   │   │   │   │   │   │       └───lib
+│       │   │   │   │   │   │   └───plugins
+│       │   │   │   │   │   │       ├───minify-webpack-plugin
+│       │   │   │   │   │   │       │   └───src
+│       │   │   │   │   │   │       ├───next-types-plugin
+│       │   │   │   │   │   │       ├───telemetry-plugin
+│       │   │   │   │   │   │       └───wellknown-errors-plugin
+│       │   │   │   │   │   ├───webpack-build
+│       │   │   │   │   │   └───webpack-config-rules
+│       │   │   │   │   ├───client
+│       │   │   │   │   │   ├───app-dir
+│       │   │   │   │   │   ├───compat
+│       │   │   │   │   │   ├───components
+│       │   │   │   │   │   │   ├───builtin
+│       │   │   │   │   │   │   ├───errors
+│       │   │   │   │   │   │   ├───http-access-fallback
+│       │   │   │   │   │   │   ├───router-reducer
+│       │   │   │   │   │   │   │   └───reducers
+│       │   │   │   │   │   │   ├───segment-cache
+│       │   │   │   │   │   │   └───styles
+│       │   │   │   │   │   ├───dev
+│       │   │   │   │   │   │   ├───error-overlay
+│       │   │   │   │   │   │   └───hot-reloader
+│       │   │   │   │   │   │       ├───app
+│       │   │   │   │   │   │       └───pages
+│       │   │   │   │   │   ├───legacy
+│       │   │   │   │   │   ├───lib
+│       │   │   │   │   │   ├───portal
+│       │   │   │   │   │   ├───react-client-callbacks
+│       │   │   │   │   │   ├───request
+│       │   │   │   │   │   └───tracing
+│       │   │   │   │   ├───export
+│       │   │   │   │   │   ├───helpers
+│       │   │   │   │   │   └───routes
+│       │   │   │   │   ├───lib
+│       │   │   │   │   │   ├───framework
+│       │   │   │   │   │   ├───fs
+│       │   │   │   │   │   ├───helpers
+│       │   │   │   │   │   ├───memory
+│       │   │   │   │   │   ├───metadata
+│       │   │   │   │   │   │   ├───generate
+│       │   │   │   │   │   │   ├───resolvers
+│       │   │   │   │   │   │   └───types
+│       │   │   │   │   │   └───typescript
+│       │   │   │   │   ├───next-devtools
+│       │   │   │   │   │   ├───server
+│       │   │   │   │   │   │   └───font
+│       │   │   │   │   │   ├───shared
+│       │   │   │   │   │   └───userspace
+│       │   │   │   │   │       ├───app
+│       │   │   │   │   │       │   └───errors
+│       │   │   │   │   │       └───pages
+│       │   │   │   │   ├───pages
+│       │   │   │   │   ├───server
+│       │   │   │   │   │   ├───after
+│       │   │   │   │   │   ├───api-utils
+│       │   │   │   │   │   │   └───node
+│       │   │   │   │   │   ├───app-render
+│       │   │   │   │   │   │   ├───metadata-insertion
+│       │   │   │   │   │   │   ├───module-loading
+│       │   │   │   │   │   │   └───rsc
+│       │   │   │   │   │   ├───async-storage
+│       │   │   │   │   │   ├───base-http
+│       │   │   │   │   │   ├───dev
+│       │   │   │   │   │   │   └───browser-logs
+│       │   │   │   │   │   ├───instrumentation
+│       │   │   │   │   │   ├───lib
+│       │   │   │   │   │   │   ├───cache-handlers
+│       │   │   │   │   │   │   ├───experimental
+│       │   │   │   │   │   │   ├───incremental-cache
+│       │   │   │   │   │   │   ├───module-loader
+│       │   │   │   │   │   │   ├───router-utils
+│       │   │   │   │   │   │   ├───server-ipc
+│       │   │   │   │   │   │   └───trace
+│       │   │   │   │   │   ├───mcp
+│       │   │   │   │   │   │   └───tools
+│       │   │   │   │   │   │       └───utils
+│       │   │   │   │   │   ├───node-environment-extensions
+│       │   │   │   │   │   ├───normalizers
+│       │   │   │   │   │   │   ├───built
+│       │   │   │   │   │   │   │   ├───app
+│       │   │   │   │   │   │   │   └───pages
+│       │   │   │   │   │   │   └───request
+│       │   │   │   │   │   ├───og
+│       │   │   │   │   │   ├───request
+│       │   │   │   │   │   ├───response-cache
+│       │   │   │   │   │   ├───resume-data-cache
+│       │   │   │   │   │   ├───route-definitions
+│       │   │   │   │   │   ├───route-matcher-managers
+│       │   │   │   │   │   ├───route-matcher-providers
+│       │   │   │   │   │   │   ├───dev
+│       │   │   │   │   │   │   │   └───helpers
+│       │   │   │   │   │   │   │       └───file-reader
+│       │   │   │   │   │   │   └───helpers
+│       │   │   │   │   │   │       └───manifest-loaders
+│       │   │   │   │   │   ├───route-matchers
+│       │   │   │   │   │   ├───route-matches
+│       │   │   │   │   │   ├───route-modules
+│       │   │   │   │   │   │   ├───app-page
+│       │   │   │   │   │   │   │   ├───helpers
+│       │   │   │   │   │   │   │   └───vendored
+│       │   │   │   │   │   │   │       ├───contexts
+│       │   │   │   │   │   │   │       ├───rsc
+│       │   │   │   │   │   │   │       └───ssr
+│       │   │   │   │   │   │   ├───app-route
+│       │   │   │   │   │   │   │   └───helpers
+│       │   │   │   │   │   │   ├───pages
+│       │   │   │   │   │   │   │   ├───builtin
+│       │   │   │   │   │   │   │   └───vendored
+│       │   │   │   │   │   │   │       └───contexts
+│       │   │   │   │   │   │   └───pages-api
+│       │   │   │   │   │   ├───stream-utils
+│       │   │   │   │   │   ├───typescript
+│       │   │   │   │   │   │   └───rules
+│       │   │   │   │   │   ├───use-cache
+│       │   │   │   │   │   └───web
+│       │   │   │   │   │       ├───exports
+│       │   │   │   │   │       ├───sandbox
+│       │   │   │   │   │       └───spec-extension
+│       │   │   │   │   │           └───adapters
+│       │   │   │   │   └───shared
+│       │   │   │   │       └───lib
+│       │   │   │   │           ├───errors
+│       │   │   │   │           ├───i18n
+│       │   │   │   │           ├───isomorphic
+│       │   │   │   │           ├───lazy-dynamic
+│       │   │   │   │           ├───page-path
+│       │   │   │   │           ├───router
+│       │   │   │   │           │   ├───routes
+│       │   │   │   │           │   └───utils
+│       │   │   │   │           ├───segment-cache
+│       │   │   │   │           ├───turbopack
+│       │   │   │   │           └───utils
+│       │   │   │   ├───experimental
+│       │   │   │   │   ├───testing
+│       │   │   │   │   │   └───server
+│       │   │   │   │   └───testmode
+│       │   │   │   │       ├───playwright
+│       │   │   │   │       └───proxy
+│       │   │   │   ├───export
+│       │   │   │   │   ├───helpers
+│       │   │   │   │   └───routes
+│       │   │   │   ├───lib
+│       │   │   │   │   ├───framework
+│       │   │   │   │   ├───fs
+│       │   │   │   │   ├───helpers
+│       │   │   │   │   ├───memory
+│       │   │   │   │   ├───metadata
+│       │   │   │   │   │   ├───generate
+│       │   │   │   │   │   ├───resolvers
+│       │   │   │   │   │   └───types
+│       │   │   │   │   └───typescript
+│       │   │   │   ├───next-devtools
+│       │   │   │   │   ├───dev-overlay
+│       │   │   │   │   │   ├───components
+│       │   │   │   │   │   │   ├───call-stack
+│       │   │   │   │   │   │   ├───call-stack-frame
+│       │   │   │   │   │   │   ├───code-frame
+│       │   │   │   │   │   │   ├───copy-button
+│       │   │   │   │   │   │   ├───devtools-indicator
+│       │   │   │   │   │   │   │   └───hooks
+│       │   │   │   │   │   │   ├───devtools-panel
+│       │   │   │   │   │   │   │   └───resize
+│       │   │   │   │   │   │   ├───dialog
+│       │   │   │   │   │   │   ├───errors
+│       │   │   │   │   │   │   │   ├───dev-tools-indicator
+│       │   │   │   │   │   │   │   │   └───dev-tools-info
+│       │   │   │   │   │   │   │   ├───dialog
+│       │   │   │   │   │   │   │   ├───environment-name-label
+│       │   │   │   │   │   │   │   ├───error-message
+│       │   │   │   │   │   │   │   ├───error-overlay
+│       │   │   │   │   │   │   │   ├───error-overlay-bottom-stack
+│       │   │   │   │   │   │   │   ├───error-overlay-call-stack
+│       │   │   │   │   │   │   │   ├───error-overlay-footer
+│       │   │   │   │   │   │   │   │   └───error-feedback
+│       │   │   │   │   │   │   │   ├───error-overlay-layout
+│       │   │   │   │   │   │   │   ├───error-overlay-nav
+│       │   │   │   │   │   │   │   ├───error-overlay-pagination
+│       │   │   │   │   │   │   │   ├───error-overlay-toolbar
+│       │   │   │   │   │   │   │   ├───error-type-label
+│       │   │   │   │   │   │   │   └───overlay
+│       │   │   │   │   │   │   ├───fader
+│       │   │   │   │   │   │   ├───hot-linked-text
+│       │   │   │   │   │   │   ├───hydration-diff
+│       │   │   │   │   │   │   ├───overlay
+│       │   │   │   │   │   │   ├───overview
+│       │   │   │   │   │   │   ├───resizer
+│       │   │   │   │   │   │   ├───terminal
+│       │   │   │   │   │   │   ├───toast
+│       │   │   │   │   │   │   ├───tooltip
+│       │   │   │   │   │   │   └───version-staleness-info
+│       │   │   │   │   │   ├───container
+│       │   │   │   │   │   │   └───runtime-error
+│       │   │   │   │   │   ├───font
+│       │   │   │   │   │   ├───hooks
+│       │   │   │   │   │   ├───icons
+│       │   │   │   │   │   │   └───thumbs
+│       │   │   │   │   │   ├───menu
+│       │   │   │   │   │   ├───panel
+│       │   │   │   │   │   ├───styles
+│       │   │   │   │   │   └───utils
+│       │   │   │   │   ├───server
+│       │   │   │   │   │   └───font
+│       │   │   │   │   ├───shared
+│       │   │   │   │   └───userspace
+│       │   │   │   │       ├───app
+│       │   │   │   │       │   └───errors
+│       │   │   │   │       └───pages
+│       │   │   │   ├───pages
+│       │   │   │   ├───server
+│       │   │   │   │   ├───after
+│       │   │   │   │   ├───api-utils
+│       │   │   │   │   │   └───node
+│       │   │   │   │   ├───app-render
+│       │   │   │   │   │   ├───metadata-insertion
+│       │   │   │   │   │   ├───module-loading
+│       │   │   │   │   │   └───rsc
+│       │   │   │   │   ├───async-storage
+│       │   │   │   │   ├───base-http
+│       │   │   │   │   ├───dev
+│       │   │   │   │   │   └───browser-logs
+│       │   │   │   │   ├───instrumentation
+│       │   │   │   │   ├───lib
+│       │   │   │   │   │   ├───cache-handlers
+│       │   │   │   │   │   ├───experimental
+│       │   │   │   │   │   ├───incremental-cache
+│       │   │   │   │   │   ├───module-loader
+│       │   │   │   │   │   ├───router-utils
+│       │   │   │   │   │   ├───server-ipc
+│       │   │   │   │   │   └───trace
+│       │   │   │   │   ├───mcp
+│       │   │   │   │   │   └───tools
+│       │   │   │   │   │       └───utils
+│       │   │   │   │   ├───node-environment-extensions
+│       │   │   │   │   ├───normalizers
+│       │   │   │   │   │   ├───built
+│       │   │   │   │   │   │   ├───app
+│       │   │   │   │   │   │   └───pages
+│       │   │   │   │   │   └───request
+│       │   │   │   │   ├───og
+│       │   │   │   │   ├───request
+│       │   │   │   │   ├───response-cache
+│       │   │   │   │   ├───resume-data-cache
+│       │   │   │   │   ├───route-definitions
+│       │   │   │   │   ├───route-matcher-managers
+│       │   │   │   │   ├───route-matcher-providers
+│       │   │   │   │   │   ├───dev
+│       │   │   │   │   │   │   └───helpers
+│       │   │   │   │   │   │       └───file-reader
+│       │   │   │   │   │   └───helpers
+│       │   │   │   │   │       └───manifest-loaders
+│       │   │   │   │   ├───route-matchers
+│       │   │   │   │   ├───route-matches
+│       │   │   │   │   ├───route-modules
+│       │   │   │   │   │   ├───app-page
+│       │   │   │   │   │   │   ├───helpers
+│       │   │   │   │   │   │   └───vendored
+│       │   │   │   │   │   │       ├───contexts
+│       │   │   │   │   │   │       ├───rsc
+│       │   │   │   │   │   │       └───ssr
+│       │   │   │   │   │   ├───app-route
+│       │   │   │   │   │   │   └───helpers
+│       │   │   │   │   │   ├───pages
+│       │   │   │   │   │   │   ├───builtin
+│       │   │   │   │   │   │   └───vendored
+│       │   │   │   │   │   │       └───contexts
+│       │   │   │   │   │   └───pages-api
+│       │   │   │   │   ├───stream-utils
+│       │   │   │   │   ├───typescript
+│       │   │   │   │   │   └───rules
+│       │   │   │   │   ├───use-cache
+│       │   │   │   │   └───web
+│       │   │   │   │       ├───exports
+│       │   │   │   │       ├───sandbox
+│       │   │   │   │       └───spec-extension
+│       │   │   │   │           └───adapters
+│       │   │   │   ├───shared
+│       │   │   │   │   └───lib
+│       │   │   │   │       ├───errors
+│       │   │   │   │       ├───i18n
+│       │   │   │   │       ├───isomorphic
+│       │   │   │   │       ├───lazy-dynamic
+│       │   │   │   │       ├───page-path
+│       │   │   │   │       ├───router
+│       │   │   │   │       │   ├───routes
+│       │   │   │   │       │   └───utils
+│       │   │   │   │       ├───segment-cache
+│       │   │   │   │       ├───turbopack
+│       │   │   │   │       └───utils
+│       │   │   │   ├───styled-jsx
+│       │   │   │   │   └───types
+│       │   │   │   ├───telemetry
+│       │   │   │   │   └───events
+│       │   │   │   └───trace
+│       │   │   │       └───report
+│       │   │   ├───experimental
+│       │   │   │   ├───testing
+│       │   │   │   └───testmode
+│       │   │   │       └───playwright
+│       │   │   ├───font
+│       │   │   │   ├───google
+│       │   │   │   └───local
+│       │   │   ├───image-types
+│       │   │   ├───legacy
+│       │   │   ├───navigation-types
+│       │   │   │   └───compat
+│       │   │   ├───node_modules
+│       │   │   │   └───postcss
+│       │   │   │       └───lib
+│       │   │   └───types
+│       │   ├───node-releases
+│       │   │   └───data
+│       │   │       ├───processed
+│       │   │       └───release-schedule
+│       │   ├───object-assign
+│       │   ├───object-inspect
+│       │   │   ├───.github
+│       │   │   ├───example
+│       │   │   └───test
+│       │   │       └───browser
+│       │   ├───object-keys
+│       │   │   └───test
+│       │   ├───object.assign
+│       │   │   ├───.github
+│       │   │   ├───dist
+│       │   │   └───test
+│       │   ├───object.entries
+│       │   │   └───test
+│       │   ├───object.fromentries
+│       │   │   └───test
+│       │   ├───object.groupby
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───object.values
+│       │   │   └───test
+│       │   ├───optionator
+│       │   │   └───lib
+│       │   ├───own-keys
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───p-limit
+│       │   ├───p-locate
+│       │   ├───parent-module
+│       │   ├───path-exists
+│       │   ├───path-key
+│       │   ├───path-parse
+│       │   ├───picocolors
+│       │   ├───picomatch
+│       │   │   └───lib
+│       │   ├───possible-typed-array-names
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───postcss
+│       │   │   └───lib
+│       │   ├───prelude-ls
+│       │   │   └───lib
+│       │   ├───prop-types
+│       │   │   └───lib
+│       │   ├───punycode
+│       │   ├───queue-microtask
+│       │   ├───react
+│       │   │   └───cjs
+│       │   ├───react-dom
+│       │   │   └───cjs
+│       │   ├───react-is
+│       │   │   ├───cjs
+│       │   │   └───umd
+│       │   ├───reflect.getprototypeof
+│       │   │   └───test
+│       │   ├───regexp.prototype.flags
+│       │   │   └───test
+│       │   ├───resolve
+│       │   │   ├───.github
+│       │   │   ├───bin
+│       │   │   ├───example
+│       │   │   ├───lib
+│       │   │   └───test
+│       │   │       ├───dotdot
+│       │   │       │   └───abc
+│       │   │       ├───module_dir
+│       │   │       │   ├───xmodules
+│       │   │       │   │   └───aaa
+│       │   │       │   ├───ymodules
+│       │   │       │   │   └───aaa
+│       │   │       │   └───zmodules
+│       │   │       │       └───bbb
+│       │   │       ├───node_path
+│       │   │       │   ├───x
+│       │   │       │   │   ├───aaa
+│       │   │       │   │   └───ccc
+│       │   │       │   └───y
+│       │   │       │       ├───bbb
+│       │   │       │       └───ccc
+│       │   │       ├───pathfilter
+│       │   │       │   └───deep_ref
+│       │   │       ├───precedence
+│       │   │       │   ├───aaa
+│       │   │       │   └───bbb
+│       │   │       ├───resolver
+│       │   │       │   ├───baz
+│       │   │       │   ├───browser_field
+│       │   │       │   ├───dot_main
+│       │   │       │   ├───dot_slash_main
+│       │   │       │   ├───false_main
+│       │   │       │   ├───incorrect_main
+│       │   │       │   ├───invalid_main
+│       │   │       │   ├───multirepo
+│       │   │       │   │   └───packages
+│       │   │       │   │       ├───package-a
+│       │   │       │   │       └───package-b
+│       │   │       │   ├───nested_symlinks
+│       │   │       │   │   └───mylib
+│       │   │       │   ├───other_path
+│       │   │       │   │   └───lib
+│       │   │       │   ├───quux
+│       │   │       │   │   └───foo
+│       │   │       │   ├───same_names
+│       │   │       │   │   └───foo
+│       │   │       │   ├───symlinked
+│       │   │       │   │   ├───package
+│       │   │       │   │   └───_
+│       │   │       │   │       ├───node_modules
+│       │   │       │   │       └───symlink_target
+│       │   │       │   └───without_basedir
+│       │   │       └───shadowed_core
+│       │   │           └───node_modules
+│       │   │               └───util
+│       │   ├───resolve-from
+│       │   ├───resolve-pkg-maps
+│       │   │   └───dist
+│       │   ├───reusify
+│       │   │   ├───.github
+│       │   │   │   └───workflows
+│       │   │   └───benchmarks
+│       │   ├───run-parallel
+│       │   ├───safe-array-concat
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───safe-push-apply
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───safe-regex-test
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───scheduler
+│       │   │   └───cjs
+│       │   ├───semver
+│       │   │   └───bin
+│       │   ├───set-function-length
+│       │   │   └───.github
+│       │   ├───set-function-name
+│       │   │   └───.github
+│       │   ├───set-proto
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───sharp
+│       │   │   ├───install
+│       │   │   ├───lib
+│       │   │   ├───node_modules
+│       │   │   │   ├───.bin
+│       │   │   │   └───semver
+│       │   │   │       ├───bin
+│       │   │   │       ├───classes
+│       │   │   │       ├───functions
+│       │   │   │       ├───internal
+│       │   │   │       └───ranges
+│       │   │   └───src
+│       │   ├───shebang-command
+│       │   ├───shebang-regex
+│       │   ├───side-channel
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───side-channel-list
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───side-channel-map
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───side-channel-weakmap
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───source-map-js
+│       │   │   └───lib
+│       │   ├───stable-hash
+│       │   │   └───dist
+│       │   ├───stop-iteration-iterator
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───string.prototype.includes
+│       │   │   ├───.github
+│       │   │   │   └───workflows
+│       │   │   └───tests
+│       │   ├───string.prototype.matchall
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───string.prototype.repeat
+│       │   │   └───tests
+│       │   ├───string.prototype.trim
+│       │   │   └───test
+│       │   ├───string.prototype.trimend
+│       │   │   └───test
+│       │   ├───string.prototype.trimstart
+│       │   │   └───test
+│       │   ├───strip-bom
+│       │   ├───strip-json-comments
+│       │   ├───styled-jsx
+│       │   │   ├───dist
+│       │   │   │   ├───babel
+│       │   │   │   ├───index
+│       │   │   │   └───webpack
+│       │   │   └───lib
+│       │   ├───supports-color
+│       │   ├───supports-preserve-symlinks-flag
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───tailwindcss
+│       │   │   └───dist
+│       │   ├───tapable
+│       │   │   └───lib
+│       │   ├───tinyglobby
+│       │   │   ├───dist
+│       │   │   └───node_modules
+│       │   │       ├───fdir
+│       │   │       │   └───dist
+│       │   │       └───picomatch
+│       │   │           └───lib
+│       │   ├───to-regex-range
+│       │   ├───ts-api-utils
+│       │   │   └───lib
+│       │   ├───tsconfig-paths
+│       │   │   ├───lib
+│       │   │   │   └───__tests__
+│       │   │   │       └───data
+│       │   │   ├───node_modules
+│       │   │   │   ├───.bin
+│       │   │   │   └───json5
+│       │   │   │       ├───dist
+│       │   │   │       └───lib
+│       │   │   └───src
+│       │   │       └───__tests__
+│       │   │           └───data
+│       │   ├───tslib
+│       │   │   └───modules
+│       │   ├───type-check
+│       │   │   └───lib
+│       │   ├───typed-array-buffer
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───typed-array-byte-length
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───typed-array-byte-offset
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───typed-array-length
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───typescript
+│       │   │   ├───bin
+│       │   │   └───lib
+│       │   │       ├───cs
+│       │   │       ├───de
+│       │   │       ├───es
+│       │   │       ├───fr
+│       │   │       ├───it
+│       │   │       ├───ja
+│       │   │       ├───ko
+│       │   │       ├───pl
+│       │   │       ├───pt-br
+│       │   │       ├───ru
+│       │   │       ├───tr
+│       │   │       ├───zh-cn
+│       │   │       └───zh-tw
+│       │   ├───typescript-eslint
+│       │   │   └───dist
+│       │   ├───unbox-primitive
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───undici-types
+│       │   ├───unrs-resolver
+│       │   ├───update-browserslist-db
+│       │   ├───uri-js
+│       │   │   └───dist
+│       │   │       ├───es5
+│       │   │       └───esnext
+│       │   │           └───schemes
+│       │   ├───which
+│       │   │   └───bin
+│       │   ├───which-boxed-primitive
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───which-builtin-type
+│       │   │   └───test
+│       │   ├───which-collection
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───which-typed-array
+│       │   │   ├───.github
+│       │   │   └───test
+│       │   ├───word-wrap
+│       │   ├───yallist
+│       │   ├───yocto-queue
+│       │   ├───zod
+│       │   │   ├───locales
+│       │   │   ├───mini
+│       │   │   ├───src
+│       │   │   │   ├───locales
+│       │   │   │   ├───mini
+│       │   │   │   ├───v3
+│       │   │   │   │   ├───benchmarks
+│       │   │   │   │   ├───helpers
+│       │   │   │   │   ├───locales
+│       │   │   │   │   └───tests
+│       │   │   │   ├───v4
+│       │   │   │   │   ├───classic
+│       │   │   │   │   │   └───tests
+│       │   │   │   │   ├───core
+│       │   │   │   │   │   └───tests
+│       │   │   │   │   │       └───locales
+│       │   │   │   │   ├───locales
+│       │   │   │   │   └───mini
+│       │   │   │   │       └───tests
+│       │   │   │   └───v4-mini
+│       │   │   ├───v3
+│       │   │   │   ├───helpers
+│       │   │   │   └───locales
+│       │   │   ├───v4
+│       │   │   │   ├───classic
+│       │   │   │   ├───core
+│       │   │   │   ├───locales
+│       │   │   │   └───mini
+│       │   │   └───v4-mini
+│       │   └───zod-validation-error
+│       │       ├───v3
+│       │       └───v4
+│       ├───public
+│       └───src
+│           ├───app
+│           │   └───orgs
+│           │       └───[orgId]
+│           │           └───tickets
+│           └───lib
+└───infra
+    └───docker
+PS C:\Users\persatech\Desktop\money road\ai-support-saas>
